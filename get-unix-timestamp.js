@@ -5,7 +5,7 @@ const getTimestamp = () => Math.floor(new Date().getTime() / 1000);
 
 const dateToTimestamp = (dateString) => Math.floor(new Date(dateString).getTime() / 1000);
 
-const timestampToDate = (timestamp) => new Date(timestamp * 1000).toString();
+const timestampToDate = (timestamp) => new Date(timestamp * 1000).toISOString();
 
 const argv = yargs
   .option('date', {
