@@ -1,0 +1,13 @@
+{
+  "name": "get-unix-timestamp",
+  "version": "1.0.0",
+  "author": "paulotokarskiglinski",
+  "description": "A package to create a UNIX timestamp",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "main": "get-unix-timestamp.js",
+  "bin": {
+    "get-unix-timestamp": "./getUnixTimestamp.js"
+  }  
+}
