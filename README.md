@@ -29,4 +29,5 @@ npx get-unix-timestamp --date="2023-10-14t00:00:00"
 *--timestamp*: Convert a UNIX timestamp to Date:
 ```bash
 npx get-unix-timestamp --timestamp=1697151600
+> 2023-10-12T23:00:00.000Z
 ```
